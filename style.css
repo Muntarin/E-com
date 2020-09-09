@@ -1,0 +1,190 @@
+.navbar {
+  background-color: #101011;
+}
+.navbar .navbar-brand {
+  color: #d5e3e7;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #f0d8ea;
+}
+.navbar .navbar-text {
+  color: #d5e3e7;
+}
+.navbar .navbar-text a {
+  color: #f0d8ea;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #f0d8ea; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #d5e3e7;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #f0d8ea;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #f0d8ea;
+  background-color: #b6359b;
+}
+.navbar .navbar-toggle {
+  border-color: #b6359b;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #b6359b;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #d5e3e7;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #d5e3e7;
+}
+.navbar .navbar-link {
+  color: #d5e3e7;
+}
+.navbar .navbar-link:hover {
+  color: #f0d8ea;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #d5e3e7;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0d8ea;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0d8ea;
+    background-color: #b6359b;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #d5e3e7;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0d8ea;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0d8ea;
+    background-color: #b6359b;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #d5e3e7;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0d8ea;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0d8ea;
+    background-color: #b6359b;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #d5e3e7;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f0d8ea;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f0d8ea;
+    background-color: #b6359b;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #d5e3e7;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #f0d8ea;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #f0d8ea;
+  background-color: #b6359b;
+}
+.carousel-caption{
+  top:30%;
+}
+.slider-title{
+  font-size: 80px;
+}
+.slider-text{
+  font-size: 30px;
+}
+
+
+
+.outer-div{
+  height: 350px;
+  overflow: hidden;
+}
+.inner-div1{
+  height: 300px;
+  width: 100%;
+  background-size:cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url(images/forman.jpg);
+
+}
+.inner-div1:hover{
+  transform: scale(1.2);
+}
+.inner-div2{
+  height: 300px;
+  width: 100%;
+  background-size:cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  background-image: url(images/forwomen.jpg);
+
+}
+.inner-div2:hover{
+  transform: scale(1.2);
+}
+.zoom-box-text{
+  text-align: center;
+  line-height: 300px;
+}
+.zoom-box-text {
+  color: white;
+}
+.counter{
+  background-image: url(images/product.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.product-card{
+  border:none;
+  text-align:center;
+  position: relative;
+
+}
+.product-card .card-title{
+  font-weight:600;
+  font-size: 22px;
+}
+
